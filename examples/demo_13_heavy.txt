@@ -1,0 +1,28 @@
+13balls
+========
+Mode              : ball first, weight if possible
+Total balls       : 13
+Hidden odd ball   : #4
+Hidden weight     : heavier (+1)
+Minimum weighings : 3
+
+Weighing Trace
+-------------
+Round 1  [1, 2, 3, 4]  vs  [5, 6, 7, 8]
+         Result : left heavier
+         State  : unknown vs unknown
+
+Round 2  [8, 9, 10, 11, 12]  vs  [5, 6, 7, 1, 2]
+         Result : balanced
+         State  : known-sign candidates
+
+Round 3  [3]  vs  [4]
+         Result : right heavier
+         State  : known-sign candidates
+
+Verdict
+-------
+Used weighings : 3
+Odd ball       : #4
+Weight         : heavier (+1)
+Path           : L = R
