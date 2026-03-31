@@ -1,4 +1,7 @@
 # 13balls
+A Python implementation of the classic balance-scale odd-ball puzzle.
+
+Instead of hard-coding one famous case, this project solves the problem for arbitrary `n`, prints full weighing traces, and verifies strategies by simulation. It includes a fast adaptive solver for large inputs and a fixed balanced-ternary strategy for the heavier/lighter version.
 
 Use a balance scale to find the one odd ball among `n` balls.
 
