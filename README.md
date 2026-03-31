@@ -1,5 +1,11 @@
 # 13balls
 A Python implementation of the classic balance-scale odd-ball puzzle.
+## Highlights
+- Works for arbitrary `n`, including `13`, `21`, `100`, and beyond
+- Supports two modes: `ball-first` and `ball+weight`
+- Prints full weighing traces step by step
+- Includes tests and saved demo outputs
+- Combines puzzle theory, recursion, simulation, and strategy construction
 
 Instead of hard-coding one famous case, this project solves the problem for arbitrary `n`, prints full weighing traces, and verifies strategies by simulation. It includes a fast adaptive solver for large inputs and a fixed balanced-ternary strategy for the heavier/lighter version.
 
